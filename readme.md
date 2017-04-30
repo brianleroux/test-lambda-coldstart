@@ -13,8 +13,8 @@ Herein you can find a quick hacky test for measuring coldstarts from Python and 
 
 Example `.env`:
 ```
-NODE_ENDPOINT=https://xxx.execute-api.us-east-1.amazonaws.com/production/python/{proxy+}
-PYTHON_ENDPOINT=https://xxx.execute-api.us-east-1.amazonaws.com/production/node/{proxy+}
+NODE_ENDPOINT=https://xxx.execute-api.us-east-1.amazonaws.com/production/node/{proxy+}
+PYTHON_ENDPOINT=https://xxx.execute-api.us-east-1.amazonaws.com/production/python/{proxy+}
 
 ```
 
