@@ -1,0 +1,19 @@
+{
+  "name": "test-lambda-coldstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index | tap-spec"
+  },
+  "author": "Brian LeRoux <b@brian.io>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "aws-sdk": "^2.48.0",
+    "cross-zip": "^2.1.5",
+    "node-env-file": "^0.1.8",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
+    "tiny-json-http": "^5.1.0"
+  }
+}
